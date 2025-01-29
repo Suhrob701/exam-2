@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img class="movie" src="img/MOVIES!.png" alt="">
+            <div class="controls">
+                <input class="enter" type="text" id="searchInput" placeholder="Enter your movie name" />
+                <select class="ol" id="filterType">
+                    <option value="all">All</option>
+                    <option value="Uncategorized">Uncategorized</option>
+                    <option value="Documentary Music">Documentary Music</option>
+                    <option value="Adventure Animation Comedy">Adventure Animation Comedy</option>
+                    <option value="Adventure Animation Comedy">Adventure Animation Comedy</option>
+                    <option value="Drama">Drama</option>
+                    <option value="Animation Comedy Family">Animation|Comedy|Family|Sport</option>
+                    <option value="PAdventure Animation Comedy">Adventure|Animation|Comedy|Family</option>
+                    <option value="Adventure Animation Comedy">Uncategorized</option>
+                    <option value="Adventure Animation Comedy">Uncategorized</option>
+                    <option value="Adventure Animation Comedy">Drama</option>
+                    <option value="Adventure Animation Comedy">Drama|Music|Romance</option>
+                    <option value="Adventure Animation Comedy">Comedy|Documentary</option>
+                    <option value="Adventure Animation Comedy">Documentary</option>
+                    <option value="Adventure Animation Comedy">Family</option>
+                    <option value="Adventure Animation Comedy">Comedy|Drama</option>
+                </select>
+                <select class="sort" id="sortBy">
+                    <option value="all">Sort</option>
+                    <option value="weightAsc">Weight (Low to High)</option>
+                    <option value="weightDesc">Weight (High to Low)</option>
+                    <option value="alphabeticalAsc"> (A-Z)</option>
+                    <option value="alphabeticalDesc"> (Z-A)</option>
+                </select>
+                <button class="se" id="searchButton">Search</button>
+        </div>
+       </header>
+       <section class="section">
+        <div class="container">
+          <div id="movieContainer" class="big">
+            <div class="card" id="card">
+                <img src="img/1200x675mf.jpg.png" alt="Patton Oswalt" class="card-image">
+                <div class="card-content">
+                  <h3>Patton Oswalt: Annihilation</h3>
+                  <p>7.4 &nbsp; | &nbsp; 2017 &nbsp; | &nbsp; 1 hr 6 min</p>
+                  <p>Uncategorized</p>
+                  <button class="card-button">More info</button>
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+            
+
+
+    <script type="module" src="main.js"></script>
+    <script type="module" src="movie.js"></script>
+</body>
+</html>
